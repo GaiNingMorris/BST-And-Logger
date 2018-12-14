@@ -25,13 +25,13 @@ public class DelayingLogger {
      * Logs a message, with a delay.
      *
      * @param delayInMilliseconds
-     *            the number of milliseconds to wait before logging the message
+     *            the delay time to log message
      * @param logLine
      *            the message to log.
      */
     public void logMessage(int delayInMilliseconds, String logLine) {
     	try {
-			Thread.sleep(delayInMilliseconds); 
+			Thread.sleep(delayInMilliseconds);
 			logMessageImmediately(logLine);
 		} catch (InterruptedException e) {
 			immediateLogger.logImmediately(e.getMessage());

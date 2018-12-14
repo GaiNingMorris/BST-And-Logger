@@ -15,7 +15,7 @@ public class DelayingLoggerTest {
 	private final static int THREAD_COUNT = 10;
 	// the delay time
 	private final static int DELAY_TIME = 6000;
-	// millsecond unit 
+	// thousand 
 	private final static int THOUSAND = 1000;
 	// zero
 	private final static int ZERO = 0;
