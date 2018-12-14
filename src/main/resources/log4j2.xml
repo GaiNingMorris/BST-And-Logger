@@ -4,7 +4,7 @@
 	xmlns="http://logging.apache.org/log4j/2.0/config">
 
 	<Properties>
-		<Property name="basePath">../takehometest/logs</Property>
+		<Property name="basePath">./logs</Property>
 	</Properties>
 
 	<Appenders>
@@ -23,10 +23,6 @@
 
 	<Loggers>
 		<Logger name="com.powin.takehometest.harder" level="debug" />
-		<!-- <Root level="info">
-			<AppenderRef ref="STDOUT" />
-			<AppenderRef ref="FILE" />
-		</Root> -->
 		<Root level="info">
 			<AppenderRef ref="STDOUT" />
 			<AppenderRef ref="FILE" />
